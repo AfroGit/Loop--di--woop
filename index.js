@@ -14,7 +14,7 @@ const  mutualFollowers = [];
 for(let i = 0; i < bobsFollowers.length; i++){
     for(let f = 0; f < tinasFollowers.length; f++){
       if(bobsFollowers[i] === tinasFollowers[f]){
-       mutualFollowers.push(bobsFollowers[i]);
+       mutualFollowers.push(bobsFollowers[i]);//used the push method to insert the common data found in both arrays.
       }
     }
 };
